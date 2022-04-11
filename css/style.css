@@ -114,7 +114,6 @@ span {
 
 .socio {
   display: flex;
-  height: 480px;
   background: #e5e5e5;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.16);
 }
@@ -130,4 +129,29 @@ span {
   gap: 15px;
   align-items: center;
   justify-content: center;
+}
+
+.circulo{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: #fff;
+  margin-bottom: 100px;
+}
+
+.lado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.cupom{
+  background: #3C214B;
+  height: 677px;
+}
+
+.cupom img{
+  margin-top: 100px;
+  margin-left: 50px;
 }
